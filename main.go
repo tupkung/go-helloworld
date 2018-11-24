@@ -12,5 +12,5 @@ func main() {
 		fmt.Fprintf(w, "hello world")
 	})
 
-	log.Fatal(http.ListenAndServe(":8888", mux))
+	log.Fatal(http.ListenAndServe(":80", mux))
 }
